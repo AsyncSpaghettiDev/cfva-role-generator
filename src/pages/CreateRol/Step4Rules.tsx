@@ -6,7 +6,6 @@ import {
   Text,
   Paper,
   Group,
-  Badge,
   ActionIcon,
   Chip,
   ScrollArea,
