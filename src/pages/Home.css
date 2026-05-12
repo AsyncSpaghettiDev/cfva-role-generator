@@ -1,0 +1,33 @@
+.home-container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.home-hero {
+  text-align: center;
+  padding: 1.5rem 0 0.5rem;
+}
+
+.home-title {
+  background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.home-card:active {
+  transform: scale(0.98);
+}
+
+.home-card-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

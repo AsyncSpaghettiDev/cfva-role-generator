@@ -1,0 +1,75 @@
+.role-table-wrapper {
+  background: #fff;
+  padding: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.role-table-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0 0 0.75rem 0;
+  letter-spacing: 1px;
+}
+
+.role-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.65rem;
+}
+
+.role-table th {
+  padding: 6px 8px;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.role-table td {
+  padding: 4px 6px;
+  font-size: 0.6rem;
+  vertical-align: middle;
+}
+
+.role-table-date {
+  font-weight: 700;
+  text-align: center;
+  font-size: 0.6rem;
+  white-space: nowrap;
+}
+
+.role-table-area {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.role-table-ofrenda {
+  text-align: center;
+  font-size: 0.55rem;
+  font-weight: 600;
+}
+
+.role-table-uniforme {
+  text-align: center;
+  font-size: 0.55rem;
+}
+
+.role-table-encargado {
+  font-size: 0.5rem;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.role-table-aux {
+  font-size: 0.5rem;
+  color: #555;
+}
+
+/* Border styling handled inline via style prop */
+.role-table,
+.role-table th,
+.role-table td {
+  border: 1px solid #8B0000;
+}

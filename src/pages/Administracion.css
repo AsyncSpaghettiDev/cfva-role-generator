@@ -1,0 +1,28 @@
+.admin-container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.admin-title {
+  text-align: center;
+  color: var(--mantine-color-gray-1);
+}
+
+.admin-tabs {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.admin-form-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.admin-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: background 0.15s ease;
+}
+
+.admin-item:active {
+  background: rgba(255, 255, 255, 0.06);
+}
